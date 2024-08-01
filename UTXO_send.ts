@@ -9,7 +9,8 @@ import { SeedWallet } from "utils/SeedWallet";
 
 const TESTNET_FEERATE = 20;
 const SEND_UTXO_LIMIT = 10000;
-const RECEIVEADDRESS = 'tb1pr62qc83slv3zy7mjaygeq2t2033hvslgljnr6lxylephys646ehqptvk8a';
+// const RECEIVEADDRESS = 'tb1pr62qc83slv3zy7mjaygeq2t2033hvslgljnr6lxylephys646ehqptvk8a';
+const RECEIVEADDRESS = '2N2sopmudEGSeMf8bMc8XRvRNWPkmB1B5dE';
 
 dotenv.config();
 Bitcoin.initEccLib(ecc);
